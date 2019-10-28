@@ -1,0 +1,12 @@
+GUPT
+Last update 7 years ago
+https://www.cs.umd.edu/~elaine/docs/gupt.pdf
+“Unfortunately, it has seen limited adoption because of the loss in output accuracy, the difficulty in making programs differentially private, lack of mechanisms to describe the privacy budget in a programmer’s utilitarian terms, and the challenging requirement that data owners and data analysts manually distribute the limited privacy budget between queries.”
+
+DP-SGD
+Work integrated into tensorflow library, tensorflow/privacy
+Deals with privatizing training data for neural networks while keeping training data itself identifiable
+https://arxiv.org/pdf/1607.00133v2.pdf
+Example has the differential privacy being used on images?
+I did not understand this part well, they dont seem to have a solid definition of privacy
+“”The approach (k-anonymity) has strong theoretical and empirical limitations [4, 9] that make it all but inapplicable to deanonymization of high-dimensional, diverse input datasets” - but this is ok because we dont want to deanonymize
